@@ -6,12 +6,18 @@ body{
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 h1{
     font-size: 45px;
     font-weight: 700;
     color: #353239;
 }
-p{
+span{
+    font-size: 20px;
+}
+#header p{
     font-size: 30px;
     font-weight: 100;
     color: #353239;
@@ -45,8 +51,70 @@ p{
 
 }
 .flex-container{
+    width: 100%;
     display: flex;
 }
-.half-width{
+.nice-padding{
+ padding: 5% 10%;
+}
+.width-60{
+    width: 60%;
+}
+.width-40{
+    width:40%;
+}
+.sec-heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+}
+.about-img{
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    transition: all .2s linear;
     width: 50%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.about-img img{
+    width: 100%;
+}
+.about-img .langs{
+    width: 20%;
+    margin-left: 5%;
+}
+
+/* card design */
+.card{
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+}
+.card .card-header{
+    height: 30px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #DFDFDF;
+}
+.card .card-header div{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-left: 7px;
+  
+}
+.card .card-body{
+    padding: 5% 2%;
+}
+
+/* color css */
+.red {
+    background-color: #ED4C5C;
+}
+.yellow{
+    background-color: #FDCB58;
+}
+.green{
+    background-color: #78B159;
 }
