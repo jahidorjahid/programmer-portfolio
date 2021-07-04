@@ -84,6 +84,11 @@ h1{
     margin-left: 5%;
 }
 
+#about p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 /* card design */
 .card{
     border: 1px solid #DFDFDF;
@@ -143,6 +148,7 @@ h1{
     background-color: gray;
 }
 .project-title{
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
 }
